@@ -1,3 +1,4 @@
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -110,90 +111,65 @@
 </div> -->
 
 
-<!-- 
- Test Goes here -->
- <div class="card">
-  <div class="card-body">
-    <h3>pOp is a Period Visualization tool. Pop aims to create tools primarily for menstruation. Through data we hope to help empower menstruating human beings. Every period is different.</h3>
-  </div>
-</div>
-<!-- this is where the form goes -->
-<div class="container-my-5">
 
-<form>
-  <div class="form-group row">
-    <label for="inputEmail3" class="col-sm-2 col-form-label">Email</label>
-    <div class="col-sm-10">
-      <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-    </div>
-  </div>
-  <div class="form-group row">
-    <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
-    <div class="col-sm-10">
-      <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
-    </div>
-  </div>
-  <fieldset class="form-group">
-    <div class="row">
-      <legend class="col-form-label col-sm-2 pt-0">Additional</legend>
-      <div class="col-sm-10">
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-          <label class="form-check-label" for="gridRadios1">
-            Track my period
-          </label>
-        </div>
-        <div class="form-check">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-          <label class="form-check-label" for="gridRadios2">
-            
-          </label>
-        </div>
-        <div class="form-check disabled">
-          <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-          <label class="form-check-label" for="gridRadios3">
-            Email Reminders
-          </label>
-        </div>
-      </div>
-    </div>
-  </fieldset>
-  <div class="form-group row">
-    <div class="col-sm-2">Checkbox</div>
-    <div class="col-sm-10">
-      <div class="form-check">
-        <input class="form-check-input" type="checkbox" id="gridCheck1">
-        <label class="form-check-label" for="gridCheck1">
-          Monthly newsletter
-        </label>
-      </div>
-    </div>
-  </div>
-  <div class="form-group row">
-    <div class="col-sm-10">
-    <a class="btn btn-warning" href="signedin.php" role="button">Sign in</a>
-      
-    </div>
-  </div>
-</form>
 
-</div>
+
+<div class="row-header">
   
-     
+<div class="col-12 text-center pt-4">  
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text=Hello%20world"
+  data-size="large">
+Help us spread the word by tweeting</a>
+
+</div>
+<div>
+<!-- 
+Google maps goes here -->
 
 
-</body>
+
+<div class="row-header">
+  
+<div class="col-12 text-center pt-4">  
+   <div class="card">
+  <div class="card-body">
+
+<div class=<div class="col-12 text-center pt-4">  
+<div id="map" style="width:500px; height:500px;"></div>
+
+<script>
+          // Initialize and add the map
+          function initMap() {
+          // The location of Uluru
+          var OCAD = {lat:43.653887, lng:-79.392299};
+
+
+          // The map, centered at Uluru
+          var map = new google.maps.Map(document.getElementById('map'), {center: {lat:43.656102, lng:-79.380384},
+          zoom: 13});
+          // The marker, positioned at Uluru
+          var marker1 = new google.maps.Marker({position: OCAD, map: map});
+         
+          }
+              </script> 
+              
+              <script async defer
+              src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfBjkR4r44VhBgYB822duZbaTVF1FiuT4
+          &callback=initMap">
+              </script>
+   </div>
+
+  
    
- <footer class="page-footer font-small black">
-   <div class="fixed-bottom"> 
-    <div class="footer-copyright text-center mt-9 py-3"> 
-    
-           <p>© 2019 Designed by Amreen Ashraf</p>
-            
-          
+    <h3>Made in Toronto</h3>
+  </div>
+</div>
 
-    
-</footer>    
-
-
-</html>
+        </div>
+        </div>
+        </div>
+        </div>
+</body>
+</html>    

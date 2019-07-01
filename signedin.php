@@ -74,13 +74,13 @@
 
               <li class="nav-item">
 
-                  <a href="#!" class="nav-link">Quiz</a>
+                  <a href="form.php" class="nav-link">Sign in</a>
 
               </li>
 
               <li class="nav-item">
 
-                  <a href="#!" class="nav-link">Share</a>
+                  <a href="share.php" class="nav-link">Share</a>
 
               </li>
 
@@ -119,16 +119,14 @@
   </div>
 </div>
 
-<!-- tweet button goes here -->
-
-<div class="container-my-5">
-
-
-<a class="twitter-share-button"
-  href="https://twitter.com/intent/tweet?text=Hello%20world"
-  data-size="large">
-Get to know Pop</a>
-
-</div>
+<!-- share button goes here -->
+<div class="col-sm-10">
+    <a class="btn btn-warning" href="share.php" role="button">Share</a>
+      
+    </div>
 
 
+
+</body>
+
+</html>
